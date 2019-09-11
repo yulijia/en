@@ -1,0 +1,72 @@
+### Site info:
+
+title : Biomedical science and Mathematics
+tagline: To Infinity and Beyond!
+author: Lijia Yu
+email: yu@lijiayu.net
+description: "The English blog of Lijia Yu."
+keywords: "genomics, bioinformatics, mathematics, statistics, perl, R language, data visualization, data analysis, LaTeX, Lijia Yu"
+baseurl: "/en" # the subpath of your site, e.g. /blog/
+url: "https://yulijia.net/en" # the base hostname & protocol for your site
+locale: en_US
+
+### Personal info and site tools info:
+twitter_username: yulijia
+github_username:  yulijia
+disqus_shortname: biologyandmathematics
+favicon:     "/images/y.png"
+#touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
+#aboutme: Hi, this is Lijia Yu.  # these are shown on aboutme-sidebar.
+#aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
+
+
+### Site setting:
+ShowContactInfo: "False" 
+default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"
+      PostDate: "on "
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+
+### your Blogroll info, only name can shown on the page.
+
+#Blogroll:
+#    - name: Yihui Xie's Blog       
+#      href: http://yihui.name      
+#      title: author of knitr, I think he is the Small Forward of R world now.
+
+### Build settings
+markdown: kramdown
+kramdown:
+        input: GFM
+        syntax_highlighter: rouge
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+exclude: [Rakefile]
