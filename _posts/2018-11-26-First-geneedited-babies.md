@@ -20,7 +20,13 @@ It is a pure business show, men in the project had HIV but women did not, there 
 After take a look at his gene edit result [^1], I strongly think he needs to spend the rest of his life in prison. One copy of CCR5 was not knocked out, no function loss for this baby in CCR5, except the unknown potential risk of off-target. This baby still was born, she may be the control group in this experiment. I feel so sad about that.
 
 
+Updated 2019.12.30
+
+Finally, he goes into jail [^2].
+
+
+
 #### Source
 
 [^1]: [Chinese Clinical trial registry](http://www.chictr.org.cn/showproj.aspx?proj=32758)
-
+[^2]: [Chinese Scientist Who Genetically Edited Babies Gets 3 Years in Prison](https://www.nytimes.com/2019/12/30/business/china-scientist-genetic-baby-prison.html)
