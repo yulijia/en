@@ -22,7 +22,7 @@ After take a look at his gene edit result [^1], I strongly think he needs to spe
 
 Updated 2019.12.30
 
-Finally, he goes into jail [^2].
+Finally, he goes to jail [^2].
 
 
 
