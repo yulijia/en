@@ -10,7 +10,7 @@ tags:
 - Bash
 ---
 
-There are usually four purposes for rename a file (multiple files):
+There are usually five purposes for rename a file (multiple files):
 
 1. Replace (delete/remove) the spaces in a filename
 2. Rename the suffix of a file
