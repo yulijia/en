@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "Kruskal's algorithm"
 author: Yu
-categories:
+categories: HowTo
 tags:
 - Kruskal
 - Graph theory
