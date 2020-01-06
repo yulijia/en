@@ -57,7 +57,7 @@ Sometimes we could also define zero is the edge weight of vertex $$i$$ to vertex
 
 Please note that the adjacency matrix of undirected graph is always symmetric.
 
-At here I using MATLAB to reproducing this algorithm, you will find matrix is the best thing in the world, many useful functions integrated into the MATLAB, they make things easier. 
+At here I use MATLAB(Octave) to reproducing this algorithm, you will find matrix is the best thing in the world, many useful functions integrated into the MATLAB, they make things easier. 
 
 
 ```matlab
