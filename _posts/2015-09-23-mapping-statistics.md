@@ -40,7 +40,7 @@ samtools view -f4 -c aligned_reads.bam
 ~~~
 samtools bedcov exon_region.bed/gene_region.bed aligned_reads.bam 
 ~~~
-
+<!--
 #### 5.coverage region and reads depth
 
 bedtools coverage  (aka coverageBed)
@@ -55,7 +55,16 @@ cat bam.cov | grep all | awk '{SUM += $2*$3;all=$4} END {print SUM/all}' > reads
 
 cat bam.cov | grep all | head -n 1 | awk '{print 1-$5}' > reads.1Xcoverage
 ```
+-->
 
+
+#### 5.read depth
+
+Updated on Jan 13, 2020
+
+```bash
+samtools depth  *bamfile*  |  awk '{sum+=$3} END { print "Average = ",sum/NR}'
+```
 
 #### 6.bam tags 
 
