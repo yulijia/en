@@ -43,9 +43,10 @@ Ref:[Question: Generate vcf.gz file and its index file vcf.gz.tbi](https://www.b
 ### 3.extract vcf from a bed region
 
 Need have a vcf index file before extract from the vcf file.
+Print header line with `-h`.
 
 ```bash
-tabix -R region.bed myvcf.gz > extract.vcf
+tabix -R region.bed myvcf.gz -h > extract.vcf
 ```
 
 Ref:[Question: Extract Sub-Set Of Regions From Vcf File](https://www.biostars.org/p/46331/)
