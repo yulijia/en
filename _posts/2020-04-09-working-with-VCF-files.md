@@ -3,7 +3,9 @@ published: ture
 layout: post
 title: "working with VCF files"
 author: Yu
-categories: HowTo
+categories: 
+- HowTo
+- Bioinformatics
 tags:
 - VCF
 - sort
