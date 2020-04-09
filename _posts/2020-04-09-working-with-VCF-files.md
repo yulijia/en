@@ -21,7 +21,7 @@ tags:
 {:toc}  
 
 
-This is a note of working with VCF files.
+This is a note of working with VCF files. Try to avoid use `awk/sed` and other linux default command. Use the professional tools!
 
 
 ### 1.sort VCF files
@@ -178,7 +178,24 @@ concat.vcf
 
 ```bash
 bcftools concat A.vcf.gz B.vcf.gz -Oz -o output.vcf.gz 
-````
+```
 
 
 Ref:[Question: How to merge vcf files with different variants but same samples?](https://www.biostars.org/p/312024/)
+
+
+
+### 7.Change Chromosome Notation
+
+
+Please remember that in the VCF header line there also have chromosome notaion, if you use `awk/sed` to change the notaion, you should also change it on the VCF header line. 
+
+```bash
+echo "1 chr1" >> chr_name_conv.txt
+echo "2 chr2" >> chr_name_conv.txt
+bcftools annotate --rename-chrs chr_name_conv.txt original.vcf.gz | bgzip > rename.vcf.gz
+```
+
+Ref:[Question: VCF files: Change Chromosome Notation](https://www.biostars.org/p/98582/)
+
+
