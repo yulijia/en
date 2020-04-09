@@ -22,7 +22,7 @@ tags:
 This is a note of working with VCF files.
 
 
-### sort VCF files
+### 1.sort VCF files
 
 ```bash
 java -jar picard.jar SortVcf INPUT=in.vcf OUTPUT=out.vcf
@@ -30,7 +30,7 @@ java -jar picard.jar SortVcf INPUT=in.vcf.gz OUTPUT=out.vcf.gz
 ```
 It will provide index file if you set the output as gz file.
 
-### index VCF files
+### 2.index VCF files
 
 ```bash
 bgzip genotypes.vcf && tabix -p vcf genotypes.vcf.gz
@@ -38,7 +38,7 @@ bgzip genotypes.vcf && tabix -p vcf genotypes.vcf.gz
 
 Ref:[Question: Generate vcf.gz file and its index file vcf.gz.tbi](https://www.biostars.org/p/59492/)
 
-### extract vcf from a bed region
+### 3.extract vcf from a bed region
 
 Need have a vcf index file before extract from the vcf file.
 
@@ -48,7 +48,7 @@ tabix -R region.bed myvcf.gz > extract.vcf
 
 Ref:[Question: Extract Sub-Set Of Regions From Vcf File](https://www.biostars.org/p/46331/)
 
-### intersect VCF files
+### 4.intersect VCF files
 
 ```bash
 bcftools isec  -p output_dir  A.vcf.gz B.vcf.gz
@@ -61,7 +61,7 @@ bcftools isec  -p output_dir  A.vcf.gz B.vcf.gz
 
 Ref: [Question: intersect VCF files](https://www.biostars.org/p/178146/)
 
-### merge VCF files
+### 5.merge VCF files
 
 When we say **merge** VCF files, it means that all genotype of one snv/indel will be merged in single line.
 
@@ -120,7 +120,7 @@ Ref:[Question: Best way to merge multiple VCF files](https://www.biostars.org/p/
 
 
 
-### Concatenate or combine or append VCF files
+### 6.Concatenate or combine or append VCF files
 
 All source files must have the same sample columns appearing in the same order. The program can be used, for example, to concatenate chromosome VCFs into one VCF, or combine a SNP VCF and an indel VCF into one. The input files must be sorted by chr and position. 
 
