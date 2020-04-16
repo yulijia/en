@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Bam file mapping statistics"
+title: "Bam/FASTQ file mapping statistics"
 author: Yu
 categories: Bioinformatics
 tags:
@@ -9,6 +9,7 @@ tags:
 - mapping
 - samtools
 - bedtools
+- FASTQ
 ---
 
 This article aim to help me to remember mapping statistics method.
@@ -86,6 +87,12 @@ samtools depth  *bamfile*  |  awk '{sum+=$3} END { print "Average = ",sum/NR}'
 |XF|Support from forward/reverse alignment|
 |XE|Number of supporting seeds|
 
+
+##### 7. Counting Number Of Bases In A Fastq File
+
+```bash
+zcat data.clean.fq.gz | paste - - - - | cut -f 2 | tr -d '\n' | wc -c 
+```
 
 
 #### Reference
