@@ -88,7 +88,7 @@ samtools depth  *bamfile*  |  awk '{sum+=$3} END { print "Average = ",sum/NR}'
 |XE|Number of supporting seeds|
 
 
-##### 7. Counting Number Of Bases In A Fastq File
+#### 7. Counting Number Of Bases In A Fastq File
 
 ```bash
 zcat data.clean.fq.gz | paste - - - - | cut -f 2 | tr -d '\n' | wc -c 
