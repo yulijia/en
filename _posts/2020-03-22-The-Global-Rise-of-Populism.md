@@ -37,4 +37,11 @@ I think all of the Trump supporters will agree on his view. I know from my forme
 
 Nativism, xenophobia, racism are on the rise. We couldn't avoid facing more and more conflict between China and the West. Nobody will win in the last.
 
+In China, there are also lots of people support for Populism, some of them believe the COVID-19 is *de novo* synthetic viruses, some of them believe traditional medicine is better than modern medical medicine. They believe the person who says the truth but not consistent with the government voice is the spokesperson for the West. Personal attacks via social media are more and more common. 
+
+The ideology gap between the West and China will become larger than we could think.
+
+The economic gap between the developed countries and developing countries will become larger than we could predict. By the way, do you see many artists from South East Asia or Latin American or Africa at the virtual concert series -- One World: Together at Home? Do you think those people have their voice in the world?
+
+
 
