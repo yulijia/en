@@ -10,14 +10,12 @@ tags:
 - Ctrl-z
 ---
 
-* table of content
-{:toc} 
 
 I have been worked in multiple dry labs during the last 10 years. Each laboratory has its own style, but few of them training students with good dry lab habits. I learned a lot of good habits from Dr. Malay Basu's lab. Now, I would like to share these good habits and tips when doing bioinformatics study in a dry lab. All the suggestions based on the Linux environment.
 
 ## Habtis 
 
-### No.1
+#### No.1
 
 Maintain a good documentary for all analysis. I learned this since the first week at Malay's lab. We recommand follow the style of Rmarkdown reprot from [MD Anderson Cancer Center](https://bioinformatics.mdanderson.org/Supplements/ResidualDisease/Reports/)
 
@@ -43,7 +41,7 @@ If you want to share the report with others, it is better to generate a HTML rep
 Always use `sessionInfo()` to print the collect information about the current R session in the bottom of the report.
 
 
-### No.2
+#### No.2
 
 Each research project should also follow a clean structure:
 
@@ -68,21 +66,21 @@ Each research project should also follow a clean structure:
 You can upload the project structure and code to any cloud storage, make a backup every day/week. 
 
 
-### No.3
+#### No.3
 
 Whatever, back up the server data every week, lost data is a huge pain for every researcher.
 
-### No.4
+#### No.4
 
 After a project is finished. You need to review the whole project's data and make sure every folder in the project has a document to record what you had done before, every script should also have a note to record the meaning of it.
 
-### No.5
+#### No.5
 
 when link a data from one sub-folder to another sub-folder in one project folder, you should use relative symbolic link `ln -rs`. When you need to move a project folder to other place, the data structure will not be broken.
 
 ## Tips 
 
-### No.1
+#### No.1
 
 Use `tmux` or `screen` when you want to run some program after exit the terminal session, they are usable with interactive commands. I perfer using `tmux` , because it has more function compare with `screen`. Please try to avoid to use `nohup` which you couldn't control the program later. 
 
@@ -90,24 +88,24 @@ When you have a Rstudio-server, sometime you may wish to run program via Rstudio
 
 The main reason for this is when the Rstudio terminal session is not reponse, you still can do interactive in tmux from other ssh session.
 
-### No.2
+#### No.2
 
 Always monitor the memory usage via `ps aux --sort -rss | head`, some parallel program may cause momory leak, you maynot know about memory leak even the program is running sucessfully. 
 
-### No.3
+#### No.3
 
 `Control+C` aborts the application almost immediately while `Control+Z` shunts it into the background, suspended. If you shunt any application into the background, **please keep in mind that the program is still waiting for your command**.
 
-### No.4
+#### No.4
 
 Do not save the large files to `/home` directory if your server has limited storage for `/home`. Use `df -h` to check the size of each system disk.
 
 Use `du -sh * | sort -rh` to check the size of each folder.
 
-### No.5
+#### No.5
 
 Better to learn one of [Pipeline Building Framework](https://www.biostars.org/p/91301/) and Docker, it makes everything reproducible more easily.
 
-### No.6
+#### No.6
 
 Bioinformatics is a field that has rapid changes. Stay hungry, keep learning.
