@@ -108,4 +108,18 @@ Better to learn one of [Pipeline Building Framework](https://www.biostars.org/p/
 
 #### No.6
 
+You need have [basic knowledge](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) of conda, and use it when run python code.
+
+Also makesure you know where is the installed version of it. I found someone who is a `su` user installs miniconda on the `/home` directory but the all user's environment of the conda has changed to this person's `/home` version. That's ridiculous. 
+
+#### No.7 
+
+Always compress dataset in to `.xz` or `.gz` format. R and Python (or other programming language) has function to read compressed datasets, you don't need to uncompress any dataset for analysis. That's may save a lot of space.
+
+#### No.8
+
+When generate a modified file, never cover the orginal files.
+
+#### No.9
+
 Bioinformatics is a field that has rapid changes. Stay hungry, keep learning.
