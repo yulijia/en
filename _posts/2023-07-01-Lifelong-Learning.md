@@ -20,4 +20,5 @@ If this decision does not matter, then you can decide by tossing a coin.
 
 T: 
 > “Must a name mean something?” Alice asks Humpty Dumpty, only to get this answer: “When I use a word… it means just what I choose it to mean – neither more nor less.”
+
 This reminds me of a famous statement from the 1960s: [The medium is the message](https://en.wikipedia.org/wiki/The_medium_is_the_message). Here you seem to be letting Google docs or Google form/spreadsheet determine how to organise your thoughts. That doesn’t seem to me to be the right way around.
