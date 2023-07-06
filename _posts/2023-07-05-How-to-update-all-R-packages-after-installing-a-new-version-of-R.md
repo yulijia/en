@@ -22,7 +22,7 @@ First, we need to copy all the packages from the `4.2` folder to the `4.3` folde
 
 Then, in R terminal/Rstudio run each line below.
 
-```{R}
+```r
 ## load all installed packages
 pkglist=data.frame(installed.packages(lib.loc="/path/to/lib")) # at here, lib.loc="/home/ylj/R/x86_64-pc-linux-gnu-library/4.3"
 ## update all packages
