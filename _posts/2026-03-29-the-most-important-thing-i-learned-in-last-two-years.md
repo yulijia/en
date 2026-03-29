@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "The most important thing I learned in last two years"
 author: Yu
-categories: Uncategorized
+categories: Learning
 tags:
 - Lifelong Learning
 ---
