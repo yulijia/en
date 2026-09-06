@@ -17,6 +17,7 @@ I accepted a postdoc position two years ago, but looking back, if I faced the sa
 I may have stepped onto a path that was not quite suited to my strengths, and over time it became harder to find my footing. Although J tried to help keep things on course, I still feel very bad recently.  Perhaps it is only the view from where I am standing, but recently I have felt a little like a stranger in a room I once hoped to belong to.
 
 So lessons: 
+
 Before accepting the offer:
 1. Ask what the training goal is, what and how many publications are expected, and what collaborative work you will need to do. Does all collaborative work have an outcome when you finish the contract? 
 
