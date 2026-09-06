@@ -5,7 +5,7 @@ comments: yes
 permalink: /guestbook/
 ---
 
-> Hello! I am a student during the day and an aspiring scientist at night. This is my blog. I live in the capital city of the Celestial Empire.
+> Hello! I am a <del>student</del> postdoc during the day and an aspiring scientist at night. This is my blog. I live in the capital city of the Celestial Empire.
 The above is purely fictional, and any resemblance is not a coincidence.
 
 > To follow the path, look to the master, follow the master, walk with the master, see through the master, become the master.
