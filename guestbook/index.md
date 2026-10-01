@@ -14,4 +14,6 @@ The above is purely fictional, and any resemblance is not a coincidence.
 
 > Anche quando il cielo è scuro splende il sole su San Siro.
 
+> Countless meteors in the Universal Century, yet but a single flash.
+
 ## You can leave me a message here.
