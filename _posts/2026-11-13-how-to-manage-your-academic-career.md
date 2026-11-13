@@ -1,9 +1,9 @@
 ---
 published: ture
 layout: post
-title: "How to write academic development plan"
+title: "How to plan your academic career: AP&D, Visibility and Promotion"
 author: Yu
-categories:
+categories: HowTo
 tags:
 - "AP&D"
 - "IDP"
